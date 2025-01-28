@@ -1,0 +1,33 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Generic Styles */
+.center {
+    text-align: center;
+    display: block;
+}
+
+/* Image Styles */
+.recipe-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: black 5px solid;
+    width: 500px;
+}
+
+/* List Styles */
+ul {
+    list-style-position: inside;
+}
+
+a {
+    font-size: 20px;
+}
+
+/* Text Styles */
+h1 {
+    font-size: 40px;
+}
+
