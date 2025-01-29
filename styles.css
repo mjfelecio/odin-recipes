@@ -1,5 +1,7 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: antiquewhite;
+    box-sizing: border-box;
 }
 
 /* Generic Styles */
@@ -18,8 +20,12 @@ body {
 }
 
 /* List Styles */
+ul {
+    text-align: start;
+}
+
 a {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 /* Text Styles */
@@ -27,3 +33,51 @@ h1 {
     font-size: 40px;
 }
 
+
+/* Home page styles */
+#home-dock {
+    background-color:rgb(251, 246, 212);
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 500px;
+    height: 650px;
+    margin: 10px auto;
+    position: relative;
+    text-align: center;
+}
+
+#home-header {
+    font-size: 40px;
+}
+
+#recipe-list {
+    margin: 5px;
+    margin-top: 50px;
+}
+
+.recipe-card {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 8px;
+    width: 90%;
+    display: inline-block;
+}
+
+.recipe-thumbnail {
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 100px;
+    float: left;
+}
+
+/* Footer */
+#home-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#home-footer a {
+    font-size: 16px;
+}
