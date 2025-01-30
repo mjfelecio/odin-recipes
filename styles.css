@@ -4,37 +4,28 @@ body {
     box-sizing: border-box;
 }
 
-/* Generic Styles */
-.center {
-    text-align: center;
-    display: block;
+h1 {
+    font-size: 35px;
+    background-color: rgb(217, 179, 252);
+    border: 3px solid black;
+    border-radius: 8px;
+    width: fit-content;
+    padding: 5px 10px;
+    margin: 20px auto;
 }
 
-/* Image Styles */
-.recipe-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: black 5px solid;
-    width: 500px;
-}
-
-/* List Styles */
-ul {
+ul, ol {
     text-align: start;
 }
 
-a {
-    font-size: 18px;
+li {
+    padding: 5px;
 }
 
-/* Text Styles */
-h1 {
-    font-size: 40px;
-}
-
-
+/* ---------------- */
 /* Home page styles */
+/* ---------------- */
+
 #home-dock {
     background-color:rgb(251, 246, 212);
     border: 3px solid black;
@@ -46,10 +37,6 @@ h1 {
     text-align: center;
 }
 
-#home-header {
-    font-size: 40px;
-}
-
 #recipe-list {
     margin: 5px;
     margin-top: 50px;
@@ -57,6 +44,7 @@ h1 {
 
 .recipe-card {
     border: 2px solid black;
+    background-color:white;
     border-radius: 5px;
     margin: 5px;
     padding: 8px;
@@ -71,7 +59,6 @@ h1 {
     float: left;
 }
 
-/* Footer */
 #home-footer {
     position: absolute;
     bottom: 0;
@@ -80,4 +67,43 @@ h1 {
 
 #home-footer a {
     font-size: 16px;
+}
+
+/* ------------------ */
+/* Recipe Page Styles */
+/* ------------------ */
+
+.recipe-page-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background-color:rgb(251, 246, 212);
+    border: 3px solid black;
+    border-radius: 10px;
+    position: relative;
+}
+
+.recipe-img {
+    display: block;
+    margin: 20px auto;
+    border: black 3px solid;
+    border-radius: 10px;
+    width: 600px;
+}
+
+.recipe-desc {
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.blocks {
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 5px;
+}
+
+.home-link {
+    margin-bottom: 10px;
 }
